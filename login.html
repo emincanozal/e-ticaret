@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+    <body>
+        <header>
+            <div>
+
+            </div>
+             <ul>
+                <li>
+                    <a href="./index.html">Anasayfa</a>
+                </li> 
+                <li>
+                    <a href="./urun2.html">Konser</a>
+                </li>
+                <li>
+                    <a href="./urun.html">Festival</a>
+                </li> 
+                <li>
+                    <a href="#">Müzik</a>
+                </li> 
+                <li>
+                    <a href="#">Sergi</a>
+                </li> 
+                <li>
+                    <a href="#">Tiyatro</a>
+                </li> 
+                
+                <li>
+                    <a href="#">İletişim</a>
+                </li> 
+                <li>
+                    <a href="#">Hakkımızda</a>
+                </li> 
+             </ul>
+             <ul>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./login.html">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                </li>
+             </ul>
+        </header>
+
+        <section>
+            <form id="registrationForm">
+                <h1>KAYIT OL</h1>
+                <div class="inputbox">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="email" id="emailInput" required>
+                    <label for="emailInput">EMAİL</label>
+                </div>
+                <div class="inputbox">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" id="passwordInput" required>
+                    <label for="passwordInput">ŞİFRE</label>
+                </div>
+                <div class="forget">
+                    <label for="rememberCheckbox">
+                        <input type="checkbox" id="rememberCheckbox">Beni Hatırla
+                    </label>
+                    <a href="#">Şifreni mi unuttun?</a>
+                </div>
+                <button type="button" onclick="saveFormData()">GİRİŞ YAP</button>
+                <div class="register">
+                    <p>Hesabınız mı yok? <a href="#">Kayıt Ol</a></p> 
+                </div>
+            </form>
+        </section>
+
+        
+
+
+        <script src="https://kit.fontawesome.com/df54ee800e.js" crossorigin="anonymous"></script>
+        <script src="./login.js"></script>
+    </body>
+</html>

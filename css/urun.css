@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shopping-cart-list{
+    position: absolute;
+    width: 25rem;
+    right: -0.75rem;
+    top: 2.9rem;
+    padding: 1rem;
+    z-index: 1;
+}
+
+.shopping-cart-list .list-item{
+    margin-top: 1rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Poppins&family=Zen+Dots&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+/* a{
+    text-decoration: none;
+} */
+
+.logo p{
+    width: 100%;
+    max-width: 100px;
+    z-index: 999;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex ;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 100px;
+    transition: all ease 0.5s ;
+    z-index: 99999;
+    background-color: black;
+}
+header ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+header ul li a{
+    color: white;
+    transition: all ease 0.5s;
+    font-weight: 500px;
+    text-decoration: none;
+}
+
+footer {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .social-icons {
+    margin-top: 10px;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+  }
